@@ -1,14 +1,9 @@
-import javax.swing.JOptionPane;
+package arithmetic;
 
-public class Addition {
-
-	public static void main(String[] args) 
+public class Addition 
+{
+	public static int add(int a, int b)
 	{
-		String firstNumber = JOptionPane.showInputDialog("Enter first integer"); 
-		String secondNumber = JOptionPane.showInputDialog("Enter second integer");
-		int number1 = Integer.parseInt(firstNumber); 
-		int number2 = Integer.parseInt(secondNumber); 
-		int sum = number1 + number2;
-		JOptionPane.showMessageDialog(null, "The sum is " + sum, "Sum of Two Integers", JOptionPane.PLAIN_MESSAGE); 
+		return a + b;
 	}
 }
